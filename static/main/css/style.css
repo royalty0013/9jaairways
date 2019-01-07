@@ -1,0 +1,117 @@
+
+#Tpage{
+	background-color: 	#f4f1f1;
+	}
+.topnav {
+  display: inline-block;
+  margin-left:700px;
+  overflow: hidden;
+  font-size: 12px;
+}
+
+.topnav a {
+	padding: 14px 16px;
+	text-decoration: none;
+	color:#000;
+	}
+
+.nav a{
+	text-decoration: none;
+	color:#85d000;
+	font-size: 23px;
+}
+
+.carousel-caption {
+  left: 10%;
+  right: 45%;
+  top: 10%;
+  text-align: left;
+  padding: 0;
+  
+  // fix font-size at small screen
+  
+  @media (min-width: 576px) { 
+    top: 25%;
+  }
+}
+
+#infopage{
+	margin-top: -120px;
+	position: relative;
+	z-index: 1;
+}
+#div1 {
+    display: inline-block;
+    border: 1px solid #fff;
+    width: 350px;
+    background-color: #85d000;
+    color: #fff;
+}
+
+#div2 {
+    display: inline-block;
+    vertical-align: top;
+    width: 750px;
+    background-color: #fff
+}
+
+#div2 ul{
+font-weight: bolder;
+}
+
+#div2 a:link{
+	background-color: #c2dce1;
+}
+
+.packages{
+	background-color: #85d000;
+	 border: 1px solid #fff;
+     display: inline-block;
+     margin-right: 20px;
+     border-radius: 100px;
+}
+
+.size{
+	font-size: 25px;
+}
+.Fsize{
+	font-size: 15px;
+	color: #85d000;
+
+}
+
+.size img{
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+
+.Fcolor{
+	font-size: 15px;
+	color: #85d000;
+}
+
+#footer{
+	background-color: #85d000; 
+}
+
+.footerP1{
+	margin-left: 100px;
+	padding-top: 100px;
+	color: #fff;
+}
+
+.terms{
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+#footer img{
+margin-bottom: -190px;
+margin-left: 100px;
+}
+
+#footer1{
+	background-color: #1dad01; 
+}
+
